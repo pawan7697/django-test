@@ -1,6 +1,6 @@
 services:
   web:
-    # image: hello769778/jenkins_projects:latest
+    image: hello769778/django-test:latest
     ports:
       - "8000:8000"
     restart: always  
